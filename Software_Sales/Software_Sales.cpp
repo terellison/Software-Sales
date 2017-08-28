@@ -27,9 +27,9 @@ int main()
 	// Set appropriate discount rate per user input
 	if (unitsSold >= 10 && unitsSold <= 19)
 		discountRate = 0.20;
-	if (unitsSold >= 20 && unitsSold <= 49)
+	else if (unitsSold >= 20 && unitsSold <= 49)
 		discountRate = 0.30;
-	if (unitsSold >= 50 && unitsSold <= 99)
+	else if (unitsSold >= 50 && unitsSold <= 99)
 		discountRate = 0.40;
 	else
 		discountRate = 0.50;
